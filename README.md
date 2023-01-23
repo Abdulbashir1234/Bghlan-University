@@ -1,1 +1,1 @@
-# Bghlan-University
+# Baghlan-University
