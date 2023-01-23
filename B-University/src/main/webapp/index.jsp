@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Nov 30, 2022, 9:52:27 AM
-    Author     : 236325
---%>
 
 <%@page import="java.util.Random"%>
 <%@page import="java.util.Date"%>

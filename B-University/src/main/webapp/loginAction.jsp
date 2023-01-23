@@ -1,8 +1,3 @@
-<%-- 
-    Document   : loginAction
-    Created on : Nov 30, 2022, 12:04:51 PM
-    Author     : 236325
---%>
 
 <%@page import="com.model.User"%>
 <%@page import="com.model.Users"%>
@@ -33,8 +28,6 @@
 
             if (user != null) {
                 session.setAttribute("user", user);
-                //    response.sendRedirect("main.jsp");
-
             } else {
                 session.setAttribute("error", "User does not exist");
                 response.sendRedirect("login.jsp");

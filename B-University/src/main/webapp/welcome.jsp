@@ -1,8 +1,3 @@
-<%-- 
-    Document   : welcome
-    Created on : Nov 30, 2022, 11:34:08 AM
-    Author     : 236325
---%>
 
 <%@page import="com.model.Users"%>
 <%@page import="com.model.User"%>

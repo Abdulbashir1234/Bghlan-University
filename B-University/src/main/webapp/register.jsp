@@ -1,8 +1,3 @@
-<%-- 
-    Document   : register
-    Created on : Nov 30, 2022, 11:11:24 AM
-    Author     : 236325
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
