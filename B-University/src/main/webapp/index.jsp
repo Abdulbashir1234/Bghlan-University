@@ -22,12 +22,19 @@
             }
         %>
         <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-                <div class="navbar-header navbar-left">
-            <a class="button" href="admin.jsp">Admin</a>
-            <a class="button" href="login.jsp">Login</a>          
-            <a class="button" href="register.jsp">Register</a> 
-            <a class="button" href="string.jsp">Strings</a>               
+           <div class="contianer-fluid">
+                <div class="navbar-header">
+                    <table>
+                        <tr>
+                            <td><h1 class="header">Baghlan</h1></td>                                
+                        </tr>
+                        <tr>
+                            <td><h1 class="header">University</h1></td>
+                            <td><a class="button" href="about.jsp">About Us</a></td>
+                            <td><a class="button" href="register.jsp">Register</a></td>
+                            <td><a class="button" href="login.jsp">Login</a></td>                                
+                        </tr>
+                    </table>  
                 </div>
             </div>
         </nav>

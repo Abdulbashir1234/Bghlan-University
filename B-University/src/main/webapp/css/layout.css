@@ -53,18 +53,17 @@ body{
 .button { 
     display: inline-block;
     width: 100px;
-    padding: 6px 6px;
-    font-size: 12px;
+    padding: 4px 4px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 0 50px #0ef;
     outline: none;
     color: #fff;
-    background-color: #8ea2ad;
+    background-color:transparent;
     border: none;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 @keyframes animate {
@@ -76,38 +75,22 @@ body{
 
 .button:active {
     background-color: #3ba2d5;
-    box-shadow: 0 5px #666;
+    
     transform: translateY(4px);
 }
 
 .mytable{
   font-weight: bolder;
-  border-collapse: collapse;
   margin: auto;
-  margin-top : 5%;
+  margin-top : 2%;
   width: 250%;
   color: #f4f4fc;
-  position: relative;
-  width: 300px;
-  height: 500px;
-  background: #000;
-  box-shadow: 0 0 50px #0ef;
-  border-radius: 20px;
-  padding: 40px;
-  overflow: hidden;
-  transition: 1s ease-in-out;
-}
-.mytable:hover {
-  animation: animate 1s linear infinite;
-}
-.mytable.active {
-  transform: translateY(-450px);
-}
-.button:hover {
-  animation: animate 1s linear infinite;
-}
-.button.active {
-  transform: translateY(-450px);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #b8b1b1;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 td {
@@ -138,6 +121,17 @@ caption{
     bottom: 0;
     width: 100%;
     background-color: #1d1d1d;
+    font-size: 36px;
+    color: #afeb00;
+    padding: 3px;
+    text-align: center;
+    opacity: 0.5;
+}
+.navbar-dark{
+    position: top;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d1d1d;
     box-shadow: 0 0 50px #0ef;
     font-size: 36px;
     color: #afeb00;
@@ -146,13 +140,19 @@ caption{
     opacity: 0.5;
 }
 
+.navbar{
+    position: top;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d1d1d;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    opacity: 0.5;
+}
 .message{       
     color: #ff3333;
     font-weight: bold;
     font-size: 14px;
-}
-
-.navbar{
-  background: #000;
-  box-shadow: 0 0 50px #0ef;
 }
